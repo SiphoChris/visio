@@ -185,10 +185,12 @@ span.image-title {
   justify-content: center;
   background-color: var(--primary-950);
   color: var(--white);
-  transition: background-color 0.25s ease;
+  transition: all 0.25s ease;
 
   &:hover {
     background-color: var(--primary-800);
+    cursor: pointer;
+    transform: scale(1.1);
   }
 }
 
@@ -208,10 +210,12 @@ span.image-title {
   align-items: center;
   background-color: var(--secondary-800);
   color: var(--white);
-  transition: background-color 0.25s ease;
+  transition: all 0.25s ease;
 
   &:hover {
     background-color: var(--secondary-600);
+    cursor: pointer;
+    transform: scale(1.1);
   }
 
   & img {

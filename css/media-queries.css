@@ -119,7 +119,12 @@
 
   .more-services-container {
     grid-template-columns: 1fr;
-  }
+}
+.more-services-card, .services-card {
+    &:hover {
+        transform: scale(1);
+    }
+}
 }
 
 @media screen and (max-width: 320px) {
