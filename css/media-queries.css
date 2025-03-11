@@ -97,7 +97,7 @@
 
   .carousel-content {
     width: 100%;
-    height: calc(100vh - var(--nav-height));
+    height: 80vh;
   }
 
   .carousel-image-container {
