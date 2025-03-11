@@ -78,6 +78,10 @@
     margin-top: 1rem;
   }
 
+  .next-btn {
+    right: 4%;
+  }
+
   .next-btn img {
     width: 32px;
     height: 32px;

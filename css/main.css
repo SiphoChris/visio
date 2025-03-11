@@ -67,10 +67,13 @@
 
 /* ------------------MAIN--------------------- */
 
-/* -------carousel image display------- */
+/* ---------hero section--------- */
+
+/* carousel image display */
 
 .carousel-container {
   width: 100%;
+  position: relative;
   height: calc(100vh - var(--nav-height));
   padding: 4rem 0 8rem;
   display: flex;
@@ -116,7 +119,7 @@ span.image-title {
 .next-btn {
   position: absolute;
   top: 50%;
-  right: 5%;
+  right: 15%;
   transform: translateY(-50%);
   background: transparent;
   border: none;
@@ -149,6 +152,17 @@ span.image-title {
 
 .progress-indicator.active {
   background-color: var(--gray);
+}
+
+.the-black-thing {
+  height: 70px;
+  width: 200px;
+  z-index: -1;
+  background-color: var(--black);
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
 }
 
 /* ------about section------ */
