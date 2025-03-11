@@ -76,6 +76,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .the-black-thing {
+    display: none;
+  }
+
   .hero-section {
     margin-top: -2rem;
   }
