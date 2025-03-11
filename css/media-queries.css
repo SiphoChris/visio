@@ -34,6 +34,10 @@
       justify-self: center;
     }
   }
+
+  .the-black-thing {
+    height: 55px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -64,6 +68,10 @@
   span.image-title {
     font-size: 12px;
     padding: 1rem 2rem;
+  }
+
+  .the-black-thing {
+    height: 50px;
   }
 }
 
