@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quicksand:wght@300..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --nav-height: 6rem;
+
+  /* ------colors------- */
+
+  --primary-50: #f0f9ff;
+  --primary-100: #e1f1fd;
+  --primary-200: #bce4fb;
+  --primary-300: #80cff9;
+  --primary-400: #3db7f3;
+  --primary-500: #149fe3;
+  --primary-600: #077ec2;
+  --primary-700: #07659d;
+  --primary-800: #0a5582;
+  --primary-900: #0f476b;
+  --primary-950: #061c2c;
+
+  --secondary-50: #f0f6fe;
+  --secondary-100: #dde9fc;
+  --secondary-200: #c2dafb;
+  --secondary-300: #98c3f8;
+  --secondary-400: #68a3f2;
+  --secondary-500: #4480ed;
+  --secondary-600: #2f63e1;
+  --secondary-700: #244ac2;
+  --secondary-800: #2541a8;
+  --secondary-900: #233b85;
+  --secondary-850: #1a2651;
+
+  --secondary-50: #f1f8fe;
+  --secondary-100: #e2f1fc;
+  --secondary-200: #bee3f9;
+  --secondary-300: #84cdf5;
+  --secondary-400: #42b2ee;
+  --secondary-500: #29a4e6;
+  --secondary-600: #0d7abc;
+  --secondary-700: #0c6298;
+  --secondary-800: #0e537e;
+  --secondary-900: #114669;
+  --secondary-950: #0c2c45;
+
+  --white: #fcfcfc;
+  --black: #000000;
+  --gray: #b0b7bc;
+}
+
+/* ------------------GLOBAL STYLES------------------- */
+
+html,
+body {
+  color: var(--black);
+  overflow-x: hidden;
+  font-family: Exo, sans-serif;
+}
+
+main {
+  margin: 0 auto;
+  width: 70vw;
+}
+
+ul {
+  list-style: none;
+  list-style-position: inside;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ------------------SHARED STYLES------------------ */
+
+#navigation-bar,
+.navigation-links,
+.carousel-container,
+.card,
+.more-services-container,
+.more-services-card {
+  display: flex;
+}
+
+.about-section,
+.services-container,
+.more-services-container {
+  display: grid;
+}
+
+/* ------------------COMPONENTS------------------ */
+
+/* -----button----- */
+.btn {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: none;
+  transition: background-color 0.5s ease;
+
+  &:hover {
+    background-color: var(--primary-950);
+  }
+  &:active {
+    background-color: var(--primary-200);
+  }
+}
+
+/* -----card----- */
+
+.card {
+  padding: 2rem;
+}
+
+/* hamburger menu */
+
+.line {
+  width: 30px;
+  height: 4px;
+  background-color: var(--black);
+}
