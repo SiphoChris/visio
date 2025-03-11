@@ -48,6 +48,9 @@
 }
 
 @media screen and (max-width: 800px) {
+  .progress-indicators {
+    left: 70%;
+  }
   .navigation-links {
     right: 2rem;
   }
@@ -102,11 +105,12 @@
     height: 100%;
   }
 
-  .more-services-card, .services-card {
+  .more-services-card,
+  .services-card {
     &:hover {
-        transform: scale(1);
+      transform: scale(1);
     }
-}
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -125,8 +129,7 @@
 
   .more-services-container {
     grid-template-columns: 1fr;
-}
-
+  }
 }
 
 @media screen and (max-width: 320px) {
