@@ -105,12 +105,6 @@
     height: 100%;
   }
 
-  .more-services-card,
-  .services-card {
-    &:hover {
-      transform: scale(1);
-    }
-  }
 }
 
 @media screen and (max-width: 500px) {
