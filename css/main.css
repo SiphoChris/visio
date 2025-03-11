@@ -119,12 +119,11 @@ span.image-title {
 .next-btn {
   position: absolute;
   top: 50%;
-  right: 15%;
+  right: 12%;
   transform: translateY(-50%);
   background: transparent;
   border: none;
   cursor: pointer;
-  border: 1px solid var(--primary-200);
 }
 
 .next-btn img {
