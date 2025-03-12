@@ -7,22 +7,40 @@ const navigationLinks = document.querySelector(".navigation-links");
 
 let imageSlides = [
   {
-    src: "https://picsum.photos/800/450?random=1",
-    title: "Beautiful Landscape",
+    src: "https://images.pexels.com/photos/590011/pexels-photo-590011.jpeg?auto=compress&cs=tinysrgb&w=600",
+    title: "Strategic Growth",
   },
   {
-    src: "https://picsum.photos/800/450?random=2",
-    title: "Sunset Over the Ocean",
+    src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fG1vbmV5fGVufDB8fDB8fHww",
+    title: "Asset Management",
   },
   {
-    src: "https://picsum.photos/800/450?random=3",
-    title: "Mountain Peaks",
+    src: "https://plus.unsplash.com/premium_photo-1683141154082-324d296f3c66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGludmVzdHxlbnwwfHwwfHx8MA%3D%3D",
+    title: "Empowering Investors",
   },
   {
-    src: "https://picsum.photos/800/450?random=4",
-    title: "City Lights at Night",
+    src: "https://images.pexels.com/photos/4475523/pexels-photo-4475523.jpeg?auto=compress&cs=tinysrgb&w=600",
+    title: "Driving Financial Excellence",
   },
 ];
+// let imageSlides = [
+//   {
+//     src: "https://picsum.photos/800/450?random=1",
+//     title: "Strategic Growth",
+//   },
+//   {
+//     src: "https://picsum.photos/800/450?random=2",
+//     title: "Asset Management",
+//   },
+//   {
+//     src: "https://picsum.photos/800/450?random=3",
+//     title: "Empowering Investors",
+//   },
+//   {
+//     src: "https://picsum.photos/800/450?random=4",
+//     title: "Driving Financial Excellence",
+//   },
+// ];
 
 let currentSlide = 0;
 
