@@ -23,24 +23,7 @@ let imageSlides = [
     title: "Driving Financial Excellence",
   },
 ];
-// let imageSlides = [
-//   {
-//     src: "https://picsum.photos/800/450?random=1",
-//     title: "Strategic Growth",
-//   },
-//   {
-//     src: "https://picsum.photos/800/450?random=2",
-//     title: "Asset Management",
-//   },
-//   {
-//     src: "https://picsum.photos/800/450?random=3",
-//     title: "Empowering Investors",
-//   },
-//   {
-//     src: "https://picsum.photos/800/450?random=4",
-//     title: "Driving Financial Excellence",
-//   },
-// ];
+
 
 let currentSlide = 0;
 
