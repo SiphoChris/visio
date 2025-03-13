@@ -2,6 +2,7 @@ let carouselImage = document.querySelector(".carousel-image");
 let imageTitle = document.querySelector(".image-title");
 let nextBtn = document.querySelector(".next-btn");
 let progressIndicators = document.querySelectorAll(".progress-indicator");
+
 const hamburgerMenu = document.querySelector(".hamburger-menu");
 const navigationLinks = document.querySelector(".navigation-links");
 
@@ -35,6 +36,7 @@ function updateCarousel() {
     dot.classList.toggle("active", index === currentSlide);
   });
 }
+
 
 let slideInterval = setInterval(() => {
   currentSlide = (currentSlide + 1) % imageSlides.length;
