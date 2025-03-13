@@ -142,15 +142,28 @@ span.image-title {
 }
 
 .progress-indicator {
-  width: 0.6rem;
-  height: 0.6rem;
-  border: 2px solid var(--gray);
+  position: relative;
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 3px solid var(--black);
   border-radius: 50%;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: var(--gray);
+}
+
+.progress-indicator::after{
+  content: '';
+  position: absolute;
+  width: 0.8rem;
+  height: 2px;
+  background-color: var(--gray);
+  top: 3.5px;
+  right: -2px;
+  border-radius: .2px;
 }
 
 .progress-indicator.active {
-  background-color: var(--gray);
+  transform: rotate(45deg);
 }
 
 .the-black-thing {
