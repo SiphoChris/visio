@@ -41,7 +41,7 @@ function updateCarousel() {
 let slideInterval = setInterval(() => {
   currentSlide = (currentSlide + 1) % imageSlides.length;
   updateCarousel();
-}, 2000);
+}, 2500);
 
 nextBtn.addEventListener("click", () => {
   clearInterval(slideInterval);
@@ -50,7 +50,7 @@ nextBtn.addEventListener("click", () => {
   slideInterval = setInterval(() => {
     currentSlide = (currentSlide + 1) % imageSlides.length;
     updateCarousel();
-  }, 2000);
+  }, 2500);
 });
 
 updateCarousel();
