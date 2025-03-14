@@ -41,7 +41,7 @@ function updateCarousel() {
 let slideInterval = setInterval(() => {
   currentSlide = (currentSlide + 1) % imageSlides.length;
   updateCarousel();
-}, 3000);
+}, 2000);
 
 nextBtn.addEventListener("click", () => {
   clearInterval(slideInterval);
