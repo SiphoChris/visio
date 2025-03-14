@@ -15,23 +15,7 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .about-section {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
 
-@media screen and (max-width: 1000px) {
-  #navigation-bar {
-    padding: 1.6rem 3rem;
-  }
-
-  span.image-title {
-    font-size: 14px;
-    padding: 1.2rem 4rem;
-  }
-}
-
-@media screen and (max-width: 850px) {
   .about-section {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
@@ -50,7 +34,20 @@
       justify-self: center;
     }
   }
+}
 
+@media screen and (max-width: 1000px) {
+  #navigation-bar {
+    padding: 1.6rem 3rem;
+  }
+
+  span.image-title {
+    font-size: 14px;
+    padding: 1.2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
   .the-black-thing {
     height: 55px;
   }

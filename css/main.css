@@ -166,6 +166,7 @@ span.image-title {
 .about-section {
   grid-template-columns: repeat(6, 1fr);
   width: 100%;
+  gap: 1rem;
 
   & p {
     grid-column: 1/5;
@@ -176,6 +177,7 @@ span.image-title {
   & img {
     grid-column: 6/7;
     justify-self: end;
+    max-width: 180%;
   }
 }
 
